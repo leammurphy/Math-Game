@@ -1,0 +1,29 @@
+Task 1: Extract Nouns for Classes 
+
+Game
+Players
+Question
+Lives
+Winner
+
+Task 2: Write their roles
+
+Objects are important for two things: 
+
+1. State: Storing data describing themselves (variables)
+2. Behavior: Defining actions that can be performed on them (methods)
+
+
+Game Class: contains the game loop where each instance of the loop is the other players turn
+
+  Winner: Assigned to the player that has more than 0 lives. 
+  
+  Next_Player: if the current player is true set player to the next player.   
+
+Players Class: Allow users to create their player name
+  Lives: Start with 3 lives and remove 1 for each wrong answer
+
+Question Class: Will ask a new math question for each turn by picking two numbers between 1 and 20
+
+
+
