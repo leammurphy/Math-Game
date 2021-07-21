@@ -1,3 +1,5 @@
+
+
 class Question 
   attr_accessor :num1, :num2, :ans
 
@@ -7,19 +9,13 @@ class Question
     @ans = @num1 + @num2
   end
 
-  def ask_question()
-    puts "What is #{@num1} + #{@num2}?"
+  def ask_question(player_name)
+
+    puts "#{player_name}, what is #{@num1} + #{@num2}?"
+    @ans
+    
   end
   
-  def ans_assess()
-    players_ans = gets.chomp.to_i
-    if (players_ans != @ans)
-      puts "Wrong answer!"
-    end
-    if (players_ans == @ans)
-      puts "Correct!"
-    end
-  end
 end
 
 

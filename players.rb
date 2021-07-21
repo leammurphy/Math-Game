@@ -7,10 +7,6 @@ class Player
   end
 end
 
-# player1 = Player.new("Leam")
-# puts player1.name
-# player1.lives
-
 # @ is indicative of an instance variable. An instance var is used to give
 # objects their own private space to store data. 
 # Remember, Objects are important for two things: 
